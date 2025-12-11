@@ -1,0 +1,87 @@
+
+
+nav
+{ width: 80%;
+margin: 0 auto;
+overflow: hidden;
+padding: ;
+}
+.menu-container{
+    margin: 0px;
+    width: 300px;
+    float: right;
+}
+.menu-container>li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+.menu-container>li>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+.schooled{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.student-container{
+    width: 90%;
+    margin: o auto;
+
+overflow: hidden;
+}
+.student{
+    width: 24%;
+    display: inline-block;
+
+}
+.student>img{
+    display: block;
+    margin: 0 auto;
+}
+.student>h6 , .student>p{text-align: center;
+    text-align: center;
+}
+.category{
+    width: 22%;
+    margin: 0 auto;
+    color: white;font-weight: bold;
+    margin: 50px;
+
+}
+.register{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: 0px;
+    background-color: #c271ff;
+    color: white;
+    border-radius: 40px;
+    font-weight: bold;
+
+}
+.category>li{
+    width: 20px;
+    list-style-type: none;
+    display: inline-block;
+    background-color: blue;
+
+}
+.learn{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 100px;
+
+}
+
+.learn>span{
+    color: #c271ff;
+
+}
