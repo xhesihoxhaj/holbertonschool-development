@@ -4,28 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <title>This is the title</title>
-    <link rel="stylesheet" href="./styles/">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body>
     <header>
-        <nav style="background-color: purple;">
+        <nav>
             <img src="../images/Logo.png" alt="this is the img alt">
-            <ul>
+            <ul class="menu-container">
                 <li>
-                    <a href="https://www.google.com/">Google</a>
+                    <a href="https://www.google.com/">COURSES</a>
                 </li>
 
                 <li>
-                    <a href="https://www.youtube.com/">Youtube</a>
+                    <a href="https://www.youtube.com/">PRICING</a>
                 </li>
 
                 <li>
-                    <a href="https://www.linkedin.com/">LinkedIn</a>
+                    <a href="https://www.linkedin.com/">LOGIN</a>
                 </li>
             </ul>
         </nav>
-        
+
         <h1 class="schooled">Get schooled</h1>
         <ul class="category">
             <li>SMILE</li>
@@ -33,40 +33,32 @@
             <li>LAUGH</li>
         </ul>
         <button class="register">REGISTER FOR FREE</button>
-        <h4 class="learn"><span>Learn</span> from the pros</h4>
-        <div class="student-container">
-            <!-- start of first person content -->
+        <h4 class="learn"><span class="purple">Learn</span> from the pros</h4>
+        <div class="students">
+
             <div class="student">
                 <img src="../images/phillip.png" alt="phillip image">
                 <h6>Phillip Massey</h6>
                 <p>Smile of the year <br> 2018-2019 </p>
             </div>
-            <!-- end of first person content -->
 
-
-            <!-- start of second person content -->
             <div class="student">
                 <img src="../images/nannie.png" alt="nannie image">
                 <h6>Nannie Lawrence</h6>
                 <p>Smile of the year <br> 2018-2019 </p>
             </div>
-            <!-- end of second person content -->
 
-            <!-- start of third person content -->
             <div class="student">
                 <img src="../images/bruce.png" alt="bruce image">
                 <h6>Phillip Massey</h6>
                 <p>Smile of the year <br> 2018-2019 </p>
             </div>
-            <!-- end of third person content -->
 
-            <!-- start of fourth person content -->
             <div class="student">
                 <img src="../images/henry.png" alt="henry image">
                 <h6>Phillip Massey</h6>
                 <p>Smile of the year <br> 2018-2019 </p>
             </div>
-            <!-- end of fourth person content -->
 
         </div>
     </header>
@@ -74,165 +66,125 @@
     <main>
 
         <!--start of first section -->
-        <section>
+        <section class="section">
             <div>
-                <div>
+                <div class="photo">
                     <img src="../images/goni.png">
                 </div>
                 <div>
-                    <p>Those tutorials are concise and go straight to the point.I can't think of a better place to learn
-                        smiling.</p>
-                    <h6>Person Name</h6>
-                    <span>weather presenter</span>
+                    <p class="paragraph">Those tutorials are concise and go straight to the point.I can't think of a better place to learn
+                        smiling.And it's so fun!</p>
+                    <h6 class="person-name">Person Name</h6>
+                    <span class="span2">weather presenter</span>
                 </div>
             </div>
         </section>
         <!--end of first section -->
-
-        <section>
-            <h3>Most <span>popular</span>tutorials</h3>
-            <!--start of first tutorial -->
-            <div>
-                <div>
-                    <img src="../images/play.png">
+        <section class="populars">
+            <h1>Most <span>popular</span> tutorials</h1>
+            <div class="popular_container">
+                <div class="video">
+                    <img class="play" src="../images/play.png" alt="play">
+                    <img src="../images/diagonal_smile.png" alt="video">
+                    <h2>Diagonal Smile</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima</p>
+                    <div class="author">
+                        <img src="../images/phillip.png" alt="author">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                    <div class="start">
+                        <div>
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/Star_gray.png" alt="start">
+                        </div>
+                        <p>8 min</p>
+                    </div>
                 </div>
-                <h3>Diagonal Smile</h3>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                <div>
-                    <img src="../images/phillip.png">
-                    <span>Phillip Massey</span>
-                    <ul>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_gray.png">
-                        </li>
-                    </ul>
-                    <span>8 min</span>
+                <div class="video">
+                    <img class="play" src="../images/play.png" alt="play">
+                    <img src="../images/sad_smile.png" alt="video">
+                    <h2>Diagonal Smile</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima</p>
+                    <div class="author">
+                        <img src="../images/phillip.png" alt="author">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                    <div class="start">
+                        <div>
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/Star_gray.png" alt="start">
+                        </div>
+                        <p>8 min</p>
+                    </div>
                 </div>
-            </div>
-            <!--end of first tutorial -->
-
-            <!--start of second tutorial -->
-            <div>
-                <div>
-                    <img src="../images/play.png">
+                <div class="video">
+                    <img class="play" src="../images/play.png" alt="play">
+                    <img src="../images/natural_smile.png" alt="video">
+                    <h2>Diagonal Smile</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima</p>
+                    <div class="author">
+                        <img src="../images/phillip.png" alt="author">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                    <div class="start">
+                        <div>
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/Star_gray.png" alt="start">
+                        </div>
+                        <p>8 min</p>
+                    </div>
                 </div>
-                <h3>Diagonal Smile</h3>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                <div>
-                    <img src="../images/phillip.png">
-                    <span>Phillip Massey</span>
-                    <ul>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_gray.png">
-                        </li>
-                    </ul>
-                    <span>8 min</span>
-                </div>
-            </div>
-            <!--end of second tutorial -->
-
-
-            <!--start of third tutorial -->
-            <div>
-                <div>
-                    <img src="../images/play.png">
-                </div>
-                <h3>Diagonal Smile</h3>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                <div>
-                    <img src="../images/phillip.png">
-                    <span>Phillip Massey</span>
-                    <ul>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_gray.png">
-                        </li>
-                    </ul>
-                    <span>8 min</span>
-                </div>
-            </div>
-            <!--end of third tutorial -->
-
-
-            <!--start of fourth tutorial -->
-            <div>
-                <div>
-                    <img src="../images/play.png">
-                </div>
-                <h3>Diagonal Smile</h3>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                <div>
-                    <img src="../images/phillip.png">
-                    <span>Phillip Massey</span>
-                    <ul>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_color.png">
-                        </li>
-                        <li>
-                            <img src="../images/star_gray.png">
-                        </li>
-                    </ul>
-                    <span>8 min</span>
-                </div>
-            </div>
-            <!--end of fourth tutorial -->
-        </section>
-        <section>
-            <h3><span>Free</span> membership</h3>
-            <div>
-                <div>
-                    <img src="../images/Logo.png">
-                    <h5>Lorem ipsum </h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="video">
+                    <img class="play" src="../images/play.png" alt="play">
+                    <img src="../images/happy_smile.png" alt="video">
+                    <h2>Diagonal Smile</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima</p>
+                    <div class="author">
+                        <img src="../images/phillip.png" alt="author">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                    <div class="start">
+                        <div>
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/star_color.png" alt="start">
+                            <img src="../images/Star_gray.png" alt="start">
+                        </div>
+                        <p>8 min</p>
+                    </div>
                 </div>
             </div>
         </section>
         <section>
-            <!-- Te strukturuhet html i seksionit te fundit -->
+            <h1>F.A.Q</h1>
+            <div class="FAQ">
+                <div class="FAQ-item">
+                    <h3>How does this works</h3>
+                    <p class="Lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="FAQ-item">
+                    <h3 class="works">How does this works</h3>
+                    <p class="Lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="FAQ-item">
+                    <h3>How does this works</h3>
+                    <p class="Lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="FAQ-item">
+                    <h3>How does this works</h3>
+                    <p class="Lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
         </section>
     </main>
 
