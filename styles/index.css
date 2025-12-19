@@ -146,7 +146,7 @@ nav {
 
 .image-container>img {
     position: relative;
-    
+
 }
 
 .play-icon {
@@ -227,7 +227,7 @@ nav {
     margin: 0 auto;
 }
 
-.smile {}
+
 
 .faq {
     width: 70%;
@@ -328,83 +328,100 @@ nav {
     .weather>div>img {
         width: 80px;
         height: 80px;
-         margin-left: 106px;
+        margin-left: 106px;
     }
-    .weather>div>p{
-       font-size: 11px;
+
+    .weather>div>p {
+        font-size: 11px;
         margin-top: 88px;
-    
+
     }
-    .weather>div>h3{
+
+    .weather>div>h3 {
         font-size: 14px;
     }
-.tutorials{
-    width: 100%;
+
+    .tutorials {
+        width: 100%;
+
+    }
+
+    .tutorial {
+        width: 100%;
+
+    }
+
+    .tutorial>h4 {
+        margin-bottom: 17px;
+
+    }
+
+    .min {
+        margin-right: 132px;
+
+    }
+
+    .span1 {
+        margin-right: 132px;
+
+    }
+
+    .philip>span {
+        margin-right: 184px;
+
+    }
+
+    .memberships {
+        width: 100%;
+    }
+
+    .membership {
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .membership>img {
+        margin-left: 79px;
+    }
+
+    .membership>h3 {
+        margin-left: 55px;
+    }
+
+    .faq {
+        width: 100%;
+
+    }
+
+    .faq>h2 {
+        font-size: 30px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .faq-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .faq-container>p {
+        text-align: center;
+
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer>div>img {
+        margin-left: 62px;
+    }
+
+    .facebook>ul>li {
+        margin-left: 85px;
+        width: 55%;
+
+
+    }
 
 }
-.tutorial{
-    width: 100%;
-
-}
-
-.tutorial>h4{
-   margin-bottom: 17px;
-   
-}
-.min{
-   margin-right: 132px;
-
-}
-.span1{
-     margin-right: 132px;
-
-}
-.philip>span{
-   margin-right: 184px;
-
-}
-.memberships{
-    width: 100%;
-}
-.membership{
-    width: 100%;
-    margin-left: 40px;
-}
-.membership>img{
- margin-left: 79px;
-}
-.membership>h3{
-     margin-left: 55px;
-}
-.faq{
-    width: 100%;
-    
-}
-.faq>h2{
-    font-size: 30px;
-     margin-bottom: 0px;
-     margin-top: 0px;
-}
-.faq-container{
-    width: 100%;
-    text-align: center;
-}
-.faq-container>p{
-    text-align: center;
-    
-}
-.footer{
-    width: 100%;
-}
-.footer>div>img{
-      margin-left: 62px;
-}
-.facebook>ul>li{
-    margin-left: 85px;
-    width: 55%;
-  
-
-}
-
-}
-
