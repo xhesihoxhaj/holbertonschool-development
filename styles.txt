@@ -1,0 +1,111 @@
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .nav>img {
+        display: block;
+    }
+
+    .menu-container {
+        width: 30px;
+        text-align: left;
+        float: none;
+        padding: 0px;
+    }
+
+    .schooled {
+        font-size: 43px;
+    }
+
+    .register {
+        width: 135px;
+    }
+
+    .students {
+        width: 100%;
+        float: none;
+
+    }
+
+    .student {
+        width: 100%;
+        float: none;
+    }
+
+    .weather {
+        float: none;
+    }
+
+    .weather>div>img {
+        width: 138px;
+        float: none;
+        margin: 0 auto;
+        margin-left: 198px;
+    }
+
+    .weather>div>p {
+        font-size: 10px;
+        margin-top: 169px;
+        margin-left: 40px;
+
+    }
+
+    .weather>div>h3 {
+        font-size: 15px;
+        margin-left: 40px;
+    }
+
+    .tutorials {
+        margin: 0 auto;
+        overflow: hidden;
+        margin-left: 252px;
+
+    }
+
+    .tutorials>h2 {
+        text-align: center;
+        margin-right: 334px;
+        font-size: 27px;
+    }
+
+    .tutorial {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .image-container>img {
+
+        margin: 0 auto;
+        position: relative;
+
+
+    }
+
+    .play-icon {
+        position: absolute;
+        bottom: 39px;
+        left: -163px;
+
+    }
+
+    .philip>span {
+        margin-right: 487px;
+
+    }
+
+    .star>span {
+        margin-right: 430px;
+    }
+
+    .memberships {
+        width: 100%;
+        float: none;
+    }
+
+    .membership {
+        width: 100%;
+        float: none;
+        margin: 30px 0;
+        text-align: center;
+    }
+
+
+}

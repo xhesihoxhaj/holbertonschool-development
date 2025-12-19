@@ -1,50 +1,58 @@
-header{
+header {
     background-image: url(../images/header_720.jpg);
     background-repeat: no-repeat;
-   background-size: cover;
+    background-size: cover;
 
 }
-nav{
+
+nav {
     width: 80%;
     margin: 0 auto;
-    
+
 }
-.menu-container{
+
+.menu-container {
     width: 300px;
-float: right;
+    float: right;
 }
-.menu-container>li{
+
+.menu-container>li {
     list-style-type: none;
-   display: inline-block;
+    display: inline-block;
     margin-right: 30px;
 }
-.menu-container>li>a{
+
+.menu-container>li>a {
     text-decoration: none;
     text-transform: uppercase;
     color: #ffffff;
     font-size: 10px;
     font-weight: bold;
 }
-.schooled{
+
+.schooled {
     font-weight: bold;
     font-size: 100px;
     text-align: center;
     color: white;
 }
-.category{
+
+.category {
     margin: 0 auto;
     margin-right: 65px;
- text-align: center;
- 
+    text-align: center;
+
 }
+
 .category>li {
     color: #ffffff;
     font-weight: bold;
     list-style-type: none;
     display: inline-block;
-   
+
 }
-.register{
+
+.register {
     display: block;
     margin: 120px auto;
     padding: 15px;
@@ -53,198 +61,350 @@ float: right;
     color: #c271ff;
     font-weight: bold;
 }
-.learn{
+
+.learn {
     color: white;
     text-align: center;
     font-size: 25px;
 }
-.purple{
+
+.purple {
     color: #c271ff;
 }
-.students{
+
+.students {
     text-align: center;
     width: 100%;
     overflow: hidden;
 }
-.student{
+
+.student {
     width: 24%;
-     margin-top: 50px;
-     float: left;
-}
-.section{
-   background-color: #c271ff;
-   overflow: hidden;
-   width: 100%;
-   height: 30%;
-}
-.photo{
-    width: 12%;
+    margin-top: 50px;
     float: left;
-    margin-right: 151px;
-    margin-top: 57px;
-    margin-bottom: 63px;
-    margin-left: 91px;
-}
-.photo>img{
-    display: block;
-    float: right;
-    margin-right: 30px;
-}
-.para{
-    margin-right: 30px;
-}
-.paragraph{
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    margin-top: 30px;
-    margin-right: 30px;
-}
-.person-name{
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
-    margin-left: 30px;
-    margin-right: 30px;
-
-}
-.span2{
-    font-size: 20px;
-    color: white;
-
-}
-.populars {
-    background-color: #FFFFFF;
-    width: 100%;
-    height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
-.populars h1 {
-    font-size: 32px;
-    font-weight: bold;
-}
-.populars h1 span{
-    font-weight: bold;
-    color: #C271FF;
+.section1 {
+    background-color: #c271ff;
+    padding: 50px;
 }
 
-.popular_container {
-    background-color: #fff;
-    padding: 30px 20px;
-    width: 1228px;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.video {
-    width: 255px;
-    height: 335px;
-    margin: auto;
-    position: relative;
-}
-
-.video .play {
-    position: absolute;
-    top: 45px;
-    left: 90px;
-}
-
-.video h2 {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 15px 7px;
-}
-
-.video p {
-    color: rgba(7, 22, 41, 0.5016);
-    font-size: 14px;
-    width: 242px;
-    margin-bottom: 20px;
-    margin-left: 7px;
-}
-
-.video .author {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    margin-left: 7px;
-}
-
-.author h3 {
-    color: rgba(194, 113, 255, 1);
-    font-size: 14px;
-}
-
-.video .author img {
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-    margin-right: 15px;
-    border-radius: 50%; 
-}
-
-.start {
-    margin: 0 7px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.start p {
-    position: absolute;
-    left: 200px;
-    color: #C271FF;
-}
-
-.smile{
-    text-align: center;
-}
-
-main>section:nth-of-type(3) {
-    background-color: #08023f;
-    margin-bottom: 100px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    width: 100%;
-    padding-bottom: 80px;
-    padding-top: 50px;
-}
-
-.free-membership {
-    display: inline-block;
-    width: 22%;
-    padding: 10px;
-    color:#ffffff;
-}
-.FAQ {
+.weather {
     width: 80%;
     margin: 0 auto;
-    padding-top: 40px;
     overflow: hidden;
 }
 
-h1 {
+.weather>div:first-of-type {
+    float: left;
+    width: 21%;
+
+}
+
+.weather>div:last-of-type {
+    float: left;
+    width: 60%;
+    font-size: 21px;
+    color: white;
+
+}
+
+.section2 {
+    background-color: white;
+}
+
+.popular {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
+    margin-top: 67px;
+    margin-top: 40px;
 }
-.Lorem{
-    margin-left: 80px;
+
+.purple {
+    color: #c271ff;
 }
-.works{
+
+.tutorials {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.tutorial {
+    width: 19%;
+    float: left;
+    margin: 30px;
+
+
+}
+
+.image-container {
+    margin-bottom: 40px;
+    margin: 0px;
+}
+
+.image-container>img {
+    position: relative;
+    m
+}
+
+.play-icon {
+    position: absolute;
+    bottom: 120px;
+    left: 91px;
+}
+
+.tutorial>h4 {
+    margin-bottom: 40px;
+
+}
+
+.philip {
+    overflow: hidden;
+}
+
+.philip>img {
+    width: 30px;
+}
+
+.philip>span {
+    float: right;
+    margin-top: 6px;
+    margin-right: 104px;
+    font-size: 13px;
+    color: #c271ff;
+
+}
+
+.star {
+    overflow: hidden;
+}
+
+.star>ul>li {
+    display: inline-block;
+    list-style-type: none;
+    float: left;
+    margin: 0;
+
+
+    display: inline-block;
+
+}
+
+.min {
+    color: #c271ff;
+    float: right;
+
+
+}
+
+.section3 {
+    background-color: blue;
+
+}
+
+.section3>h1 {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.memberships {
+
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.membership {
+    float: left;
+    width: 25%;
+}
+
+.membership>img {
+    margin-right: 30px;
+    margin: 0 auto;
+}
+
+.smile {}
+
+.faq {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.faq>h2 {
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.faq-container {
+    display: inline-block;
+    width: 49%;
+}
+
+.faq-container>h5,
+.faq-container>p {
+    margin: 30px 60px 30px 60px;
+}
+
+.faq-container>h5 {
+    font-weight: bold;
+}
+
+.faq-container>p {
+    color: #07162980;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: blue;
+    width: 100%;
+    overflow: hidden;
+}
+
+.facebook>ul {
+    list-style-type: none;
+    display: inline-block;
+    width: 23%;
+}
+
+.facebook>ul>li> {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+.footer>img {
+    margin-left: 152px;
+    margin-top: 115px;
+
+}
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+    .menu-container {
+        text-align: left;
+        padding: 0px;
+        float: none;
+        width: 30px;
+    }
+
+    .schooled {
+        font-size: 40px;
+    }
+
+    .students {
+        width: 100%;
+
+    }
+
+    .student {
+        width: 100%;
+    }
+
+    .section1 {
+        padding: 0px;
+    }
+
+    .weather {
+        width: 100%;
+        margin: 0px;
+    }
+
+
+
+    .weather>div:first-of-type {
+        width: 15%;
+    }
+
+    .weather>div:last-of-type {
+        width: 85%;
+    }
+
+    .weather>div>img {
+        width: 80px;
+        height: 80px;
+         margin-left: 106px;
+    }
+    .weather>div>p{
+       font-size: 11px;
+        margin-top: 88px;
+    
+    }
+    .weather>div>h3{
+        font-size: 14px;
+    }
+.tutorials{
+    width: 100%;
+
+}
+.tutorial{
+    width: 100%;
+
+}
+
+.tutorial>h4{
+   margin-bottom: 17px;
    
 }
-.FAQ-item {
-    width: 30%;
-    float:left;
-    margin-bottom: 30px;
-    margin-right: 20%;
-    margin-left: 30px;
+.min{
+   margin-right: 132px;
+
 }
+.span1{
+     margin-right: 132px;
+
+}
+.philip>span{
+   margin-right: 184px;
+
+}
+.memberships{
+    width: 100%;
+}
+.membership{
+    width: 100%;
+    margin-left: 40px;
+}
+.membership>img{
+ margin-left: 79px;
+}
+.membership>h3{
+     margin-left: 55px;
+}
+.faq{
+    width: 100%;
+    
+}
+.faq>h2{
+    font-size: 30px;
+     margin-bottom: 0px;
+     margin-top: 0px;
+}
+.faq-container{
+    width: 100%;
+    text-align: center;
+}
+.faq-container>p{
+    text-align: center;
+    
+}
+.footer{
+    width: 100%;
+}
+.footer>div>img{
+      margin-left: 62px;
+}
+.facebook>ul>li{
+    margin-left: 85px;
+    width: 55%;
+  
+
+}
+
+}
+
